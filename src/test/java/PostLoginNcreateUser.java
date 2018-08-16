@@ -7,7 +7,7 @@ import static org.hamcrest.Matchers.equalTo;
 import static com.sun.javafx.fxml.expression.Expression.equalTo;
 import static io.restassured.RestAssured.given;
 
-public class PostLogin {
+public class PostLoginNcreateUser {
     @Test
     public void postLogin() {
         RestAssured.baseURI = "https://apps.net-results.com";
